@@ -8,7 +8,7 @@ import Halloween from '../images/halloween.png';
 import Adventure from '../images/adventure.png';
 import TodoApp from '../images/to-do-app.png';
 import Breakout from '../images/breakout.png';
-import Mishbir from '../images/Mishbir.png';
+import Mishbir from '../images/mishbir.png';
 import Gym from '../images/gym.png';
 import TastyTreat from '../images/tastyTreat.png';
 import Travel from '../images/travel.png';
