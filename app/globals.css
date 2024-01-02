@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #FAFCFF;
+}
+
+section {
+  padding: 80px 0px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.customLime,
+.headTitleLine {
+  color: #63CF50;
+}
+
+.customShadow {
+  box-shadow: 0 2px 16px hsla(219, 48%, 8%, .1);
+}
+
+.customBoxBorder {
+  border: 1px solid #98EC65;
+}
+
+.customBgLime {
+  background: #63CF50;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin-top: 6px;
+}
+
+.buttonBgLime {
+  background: #98EC65;
+}
+
+.authorAboutImage {
+  border-radius: 1.5rem;
+}
+
+.customBorder {
+  border: 1px solid #63CF50;
+  border-radius: 6px;
+}
+
+.textMain {
+  color: #21252C;
+}
+
+.textAlt {
+  color: #525760;
+}
+
+.progress-cus-success::-moz-progress-bar {
+  border-radius: var(--rounded-box, 1rem
+      /* 16px */
+    );
+  --tw-bg-opacity: 1;
+  background-color: var(--fallback-su, oklch(var(--su)/var(--tw-bg-opacity)));
+}
+
+.progress-cus-success:indeterminate {
+  --progress-color: #63CF50;
+}
+
+.progress-cus-success::-webkit-progress-value {
+  --tw-bg-opacity: 1;
+  background-color: #63CF50;
+}
+
+.authorAboutImage {
+  object-fit: cover;
+}
