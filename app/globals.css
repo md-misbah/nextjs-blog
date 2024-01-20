@@ -81,3 +81,6 @@ section {
 .authorAboutImage {
   object-fit: cover;
 }
+.bg-white{
+  background: #0e222a;
+}
