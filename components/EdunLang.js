@@ -15,7 +15,7 @@ export default function EdunLang() {
             <div className="sm:container mx-auto">
                 <div className="aboutWrapper w-11/12 m-auto">
                     <div className="aboutHeadingTitle mb-12">
-                        <h3 className='subTitle mx-auto text-center text-sm textAlt mb-1.5'>My Academic Career</h3>
+                        <h3 className='subTitle mx-auto text-center text-sm text-white mb-1.5'>My Academic Career</h3>
                         <h1 className="headTitleLine mx-auto text-2xl text-center custom font-semibold">Education & Languages</h1>
                     </div>
                     <div className="eduLDataWrapper grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-0 gap-y-8">
