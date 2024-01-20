@@ -53,7 +53,7 @@ export default function Projects() {
                     </div>
                     <div className="projectsWrap grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-6 my-6">
 
-                        <div className="singleProjectWrapper bg-white customShadow p-6 rounded-2xl">
+                        <div className="singleProjectWrapper csBg customShadow p-6 rounded-2xl">
                             <div className="singleProjectImg w-12/12 h-44 rounded-xl">
                                 <Image
                                     src={projectImg[0]}
@@ -62,7 +62,7 @@ export default function Projects() {
                                 />
                             </div>
                             <div className="singleProjectTitle"><h1 className="customLime text-base font-medium mt-4 mb-1">{projectName[0]}</h1></div>
-                            <div className="singleProjectDec text-justify text-sm font-light">{projectDesc[0]}</div>
+                            <div className="singleProjectDec text-white text-justify text-sm font-light">{projectDesc[0]}</div>
                             <div className="singleProjectTags flex justify-between mt-3">
                                 <div className="singleProjectMeta">
                                     <h1 className="customBorder p-2 text-sm customLime">{projectTag[0]}</h1>
@@ -75,7 +75,7 @@ export default function Projects() {
                                 </div>
                             </div>
                         </div>
-                        <div className="singleProjectWrapper bg-white customShadow p-6 rounded-2xl">
+                        <div className="singleProjectWrapper csBg customShadow p-6 rounded-2xl">
                             <div className="singleProjectImg w-12/12 h-44 rounded-xl">
                                 <Image
                                     src={projectImg[1]}
@@ -84,7 +84,7 @@ export default function Projects() {
                                 />
                             </div>
                             <div className="singleProjectTitle"><h1 className="customLime text-base font-medium mt-4 mb-1">{projectName[1]}</h1></div>
-                            <div className="singleProjectDec text-justify text-sm font-light">{projectDesc[0]}</div>
+                            <div className="singleProjectDec text-white text-justify text-sm font-light">{projectDesc[0]}</div>
                             <div className="singleProjectTags flex justify-between mt-3">
                                 <div className="singleProjectMeta">
                                     <h1 className="customBorder p-2 text-sm customLime">{projectTag[2]}</h1>
@@ -97,7 +97,7 @@ export default function Projects() {
                                 </div>
                             </div>
                         </div>
-                        <div className="singleProjectWrapper bg-white customShadow p-6 rounded-2xl">
+                        <div className="singleProjectWrapper csBg customShadow p-6 rounded-2xl">
                             <div className="singleProjectImg w-12/12 h-44 rounded-xl">
                                 <Image
                                     src={projectImg[2]}
@@ -106,7 +106,7 @@ export default function Projects() {
                                 />
                             </div>
                             <div className="singleProjectTitle"><h1 className="customLime text-base font-medium mt-4 mb-1">{projectName[2]}</h1></div>
-                            <div className="singleProjectDec text-justify text-sm font-light">{projectDesc[0]}</div>
+                            <div className="singleProjectDec text-white text-justify text-sm font-light">{projectDesc[0]}</div>
                             <div className="singleProjectTags flex justify-between mt-3">
                                 <div className="singleProjectMeta">
                                     <h1 className="customBorder p-2 text-sm customLime">{projectTag[2]}</h1>
@@ -122,7 +122,7 @@ export default function Projects() {
 
 
 
-                        <div className="singleProjectWrapper bg-white customShadow p-6 rounded-2xl">
+                        <div className="singleProjectWrapper csBg customShadow p-6 rounded-2xl">
                             <div className="singleProjectImg w-12/12 h-44 rounded-xl">
                                 <Image
                                     src={projectImg[3]}
@@ -131,7 +131,7 @@ export default function Projects() {
                                 />
                             </div>
                             <div className="singleProjectTitle"><h1 className="customLime text-base font-medium mt-4 mb-1">{projectName[3]}</h1></div>
-                            <div className="singleProjectDec text-justify text-sm font-light">{projectDesc[0]}</div>
+                            <div className="singleProjectDec text-white text-justify text-sm font-light">{projectDesc[0]}</div>
                             <div className="singleProjectTags flex justify-between mt-3">
                                 <div className="singleProjectMeta">
                                     <h1 className="customBorder p-2 text-sm customLime">{projectTag[3]}</h1>
@@ -144,7 +144,7 @@ export default function Projects() {
                                 </div>
                             </div>
                         </div>
-                        <div className="singleProjectWrapper bg-white customShadow p-6 rounded-2xl">
+                        <div className="singleProjectWrapper csBg customShadow p-6 rounded-2xl">
                             <div className="singleProjectImg w-12/12 h-44 rounded-xl">
                                 <Image
                                     src={projectImg[4]}
@@ -153,7 +153,7 @@ export default function Projects() {
                                 />
                             </div>
                             <div className="singleProjectTitle"><h1 className="customLime text-base font-medium mt-4 mb-1">{projectName[4]}</h1></div>
-                            <div className="singleProjectDec text-justify text-sm font-light">{projectDesc[0]}</div>
+                            <div className="singleProjectDec text-white text-justify text-sm font-light">{projectDesc[0]}</div>
                             <div className="singleProjectTags flex justify-between mt-3">
                                 <div className="singleProjectMeta">
                                     <h1 className="customBorder p-2 text-sm customLime">{projectTag[4]}</h1>
@@ -166,7 +166,7 @@ export default function Projects() {
                                 </div>
                             </div>
                         </div>
-                        <div className="singleProjectWrapper bg-white customShadow p-6 rounded-2xl">
+                        <div className="singleProjectWrapper csBg customShadow p-6 rounded-2xl">
                             <div className="singleProjectImg w-12/12 h-44 rounded-xl">
                                 <Image
                                     src={projectImg[5]}
@@ -175,7 +175,7 @@ export default function Projects() {
                                 />
                             </div>
                             <div className="singleProjectTitle"><h1 className="customLime text-base font-medium mt-4 mb-1">{projectName[5]}</h1></div>
-                            <div className="singleProjectDec text-justify text-sm font-light">{projectDesc[0]}</div>
+                            <div className="singleProjectDec text-white text-justify text-sm font-light">{projectDesc[0]}</div>
                             <div className="singleProjectTags flex justify-between mt-3">
                                 <div className="singleProjectMeta">
                                     <h1 className="customBorder p-2 text-sm customLime">{projectTag[2]}</h1>
@@ -191,7 +191,7 @@ export default function Projects() {
 
 
 
-                        <div className="singleProjectWrapper bg-white customShadow p-6 rounded-2xl">
+                        <div className="singleProjectWrapper csBg customShadow p-6 rounded-2xl">
                             <div className="singleProjectImg w-12/12 h-44 rounded-xl">
                                 <Image
                                     src={projectImg[6]}
@@ -200,7 +200,7 @@ export default function Projects() {
                                 />
                             </div>
                             <div className="singleProjectTitle"><h1 className="customLime text-base font-medium mt-4 mb-1">{projectName[6]}</h1></div>
-                            <div className="singleProjectDec text-justify text-sm font-light">{projectDesc[0]}</div>
+                            <div className="singleProjectDec text-white text-justify text-sm font-light">{projectDesc[0]}</div>
                             <div className="singleProjectTags flex justify-between mt-3">
                                 <div className="singleProjectMeta">
                                     <h1 className="customBorder p-2 text-sm customLime">{projectTag[2]}</h1>
@@ -213,7 +213,7 @@ export default function Projects() {
                                 </div>
                             </div>
                         </div>
-                        <div className="singleProjectWrapper bg-white customShadow p-6 rounded-2xl">
+                        <div className="singleProjectWrapper csBg customShadow p-6 rounded-2xl">
                             <div className="singleProjectImg w-12/12 h-44 rounded-xl">
                                 <Image
                                     src={projectImg[7]}
@@ -222,7 +222,7 @@ export default function Projects() {
                                 />
                             </div>
                             <div className="singleProjectTitle"><h1 className="customLime text-base font-medium mt-4 mb-1">{projectName[7]}</h1></div>
-                            <div className="singleProjectDec text-justify text-sm font-light">{projectDesc[0]}</div>
+                            <div className="singleProjectDec text-white text-justify text-sm font-light">{projectDesc[0]}</div>
                             <div className="singleProjectTags flex justify-between mt-3">
                                 <div className="singleProjectMeta">
                                     <h1 className="customBorder p-2 text-sm customLime">{projectTag[2]}</h1>
@@ -235,7 +235,7 @@ export default function Projects() {
                                 </div>
                             </div>
                         </div>
-                        <div className="singleProjectWrapper bg-white customShadow p-6 rounded-2xl">
+                        <div className="singleProjectWrapper csBg customShadow p-6 rounded-2xl">
                             <div className="singleProjectImg w-12/12 h-44 rounded-xl">
                                 <Image
                                     src={projectImg[8]}
@@ -244,7 +244,7 @@ export default function Projects() {
                                 />
                             </div>
                             <div className="singleProjectTitle"><h1 className="customLime text-base font-medium mt-4 mb-1">{projectName[8]}</h1></div>
-                            <div className="singleProjectDec text-justify text-sm font-light">{projectDesc[0]}</div>
+                            <div className="singleProjectDec text-white text-justify text-sm font-light">{projectDesc[0]}</div>
                             <div className="singleProjectTags flex justify-between mt-3">
                                 <div className="singleProjectMeta">
                                     <h1 className="customBorder p-2 text-sm customLime">{projectTag[2]}</h1>
