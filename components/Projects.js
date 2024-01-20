@@ -48,7 +48,7 @@ export default function Projects() {
             <div className="sm:container mx-auto">
                 <div className="projectsWrapper w-11/12 m-auto">
                     <div className="projectHeadingTitle mb-12">
-                        <h3 className='projectsSub_Title mx-auto text-center text-sm textAlt mb-1.5'>My Projects</h3>
+                        <h3 className='projectsSub_Title mx-auto text-center text-sm text-white mb-1.5'>My Projects</h3>
                         <h1 className="projectsHeadTitleLine mx-auto text-2xl text-center customLime font-semibold">Check Out My Previous Projects</h1>
                     </div>
                     <div className="projectsWrap grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-6 my-6">
