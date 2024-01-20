@@ -44,7 +44,7 @@ export default function Skills() {
                         <h3 className='skillSub_Title mx-auto text-center text-sm text-white mb-1.5'>My Abilities</h3>
                         <h1 className="skillHeadTitleLine mx-auto text-2xl text-center customLime font-semibold">My Skills & Efficiency</h1></div>
                     <div className="leftRightWrap grid gap-x-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2	">
-                        <div className="skillWrapperLeft shadow p-5 my-4  rounded-2xl  csBg">
+                        <div className="skillWrapperLeft csBg shadow p-5 my-4  rounded-2xl  ">
                             <div className="skill_Left_skillTitle text-base font-semibold customLime m-auto text-center my-3">Front-End Development</div>
                             <div className="skill_Left_skills">
                                 <div className="skill_inner sm:block md:block lg:flex lg:justify-between">
@@ -129,7 +129,7 @@ export default function Skills() {
                                 </div>
                             </div>
                         </div>
-                        <div className="skillWrapperRight customShadow p-5 my-4  rounded-2xl  bg-white">
+                        <div className="skillWrapperRight  p-5 my-4  rounded-2xl  csBg shadow">
                             <div className="skill_Left_skillTitle text-base font-semibold customLime m-auto text-center my-3">Graphics Development</div>
                             <div className="skill_Left_skills">
                                 <div className="skill_inner sm:block md:block lg:flex lg:justify-around ">
@@ -214,7 +214,7 @@ export default function Skills() {
                                 </div>
                             </div>
                         </div>
-                        <div className="skillWrapperRight customShadow p-5 my-8  rounded-2xl  bg-white">
+                        <div className="skillWrapperRight  p-5 my-8  rounded-2xl  csBg shadow">
                             <div className="skill_Left_skillTitle text-base font-semibold customLime m-auto text-center my-3">More Skills</div>
                             <div className="skill_Left_skills">
                                 <div className="skill_inner sm:block md:block lg:flex lg:justify-around">
