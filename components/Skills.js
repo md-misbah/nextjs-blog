@@ -41,10 +41,10 @@ export default function Skills() {
             <div className="sm:container mx-auto">
                 <div className="skillsWrapper w-11/12 m-auto">
                     <div className="skillHeadingTitle mb-12">
-                        <h3 className='skillSub_Title mx-auto text-center text-sm textAlt mb-1.5'>My Abilities</h3>
+                        <h3 className='skillSub_Title mx-auto text-center text-sm text-white mb-1.5'>My Abilities</h3>
                         <h1 className="skillHeadTitleLine mx-auto text-2xl text-center customLime font-semibold">My Skills & Efficiency</h1></div>
                     <div className="leftRightWrap grid gap-x-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2	">
-                        <div className="skillWrapperLeft customShadow p-5 my-4  rounded-2xl  bg-white">
+                        <div className="skillWrapperLeft shadow p-5 my-4  rounded-2xl  csBg">
                             <div className="skill_Left_skillTitle text-base font-semibold customLime m-auto text-center my-3">Front-End Development</div>
                             <div className="skill_Left_skills">
                                 <div className="skill_inner sm:block md:block lg:flex lg:justify-between">
@@ -52,16 +52,16 @@ export default function Skills() {
                                         <div className="singleSkill_left_01 my-4 flex">
                                             <div className="skill_icon mt-2 mr-1 text-base customLime"><DiHtml5 /></div>
                                             <div className="skillData">
-                                                <h1 className="skill_head text-base font-medium	 textMain">HTML</h1>
-                                                <h3 className="skill_acc  text-xs	textMouse ">Advance</h3>
+                                                <h1 className="skill_head text-base font-medium	 text-white">HTML</h1>
+                                                <h3 className="skill_acc  text-xs	text-white ">Advance</h3>
                                                 {/* <progress className="progress progress-cus-success w-56" value="90" max="100"></progress> */}
                                             </div>
                                         </div>
                                         <div className="singleSkill_left_01 my-4 flex">
                                             <div className="skill_icon mt-2 mr-1 text-base customLime"><DiCss3 /></div>
                                             <div className="skillData">
-                                                <h1 className="skill_head text-base font-medium textMain">CSS</h1>
-                                                <h3 className="skill_acc textMouse text-xs ">Advance</h3>
+                                                <h1 className="skill_head text-base font-medium text-white">CSS</h1>
+                                                <h3 className="skill_acc text-white text-xs ">Advance</h3>
                                                 {/* <progress className="progress progress-cus-success w-56" value="92" max="100"></progress> */}
                                             </div>
                                         </div>
@@ -71,8 +71,8 @@ export default function Skills() {
 
                                             </div>
                                             <div className="skillData">
-                                                <h1 className="skill_head text-base font-medium textMain">JavaScript with ES</h1>
-                                                <h3 className="skill_acc textMouse text-xs ">Advance</h3>
+                                                <h1 className="skill_head text-base font-medium text-white">JavaScript with ES</h1>
+                                                <h3 className="skill_acc text-white text-xs ">Advance</h3>
                                                 {/* <progress className="progress progress-cus-success w-56" value="87" max="100"></progress> */}
                                             </div>
                                         </div>
@@ -81,8 +81,8 @@ export default function Skills() {
 
                                             </div>
                                             <div className="skillData">
-                                                <h1 className="skill_head text-base font-medium textMain">Bootstrap & JQuery</h1>
-                                                <h3 className="skill_acc textMouse  text-xs ">Advance</h3>
+                                                <h1 className="skill_head text-base font-medium text-white">Bootstrap & JQuery</h1>
+                                                <h3 className="skill_acc text-white  text-xs ">Advance</h3>
                                                 {/* <progress className="progress progress-cus-success w-56" value="88" max="100"></progress> */}
                                             </div>
                                         </div>
@@ -91,16 +91,16 @@ export default function Skills() {
                                         <div className="singleSkill_left_01 my-4 flex">
                                             <div className="skill_icon mt-2 mr-1 text-base customLime"><FaReact /></div>
                                             <div className="skillData">
-                                                <h1 className="skill_head text-base font-medium textMain">React JS</h1>
-                                                <h3 className="skill_acc  text-xs	textMouse ">Advance</h3>
+                                                <h1 className="skill_head text-base font-medium text-white">React JS</h1>
+                                                <h3 className="skill_acc  text-xs	text-white ">Advance</h3>
                                                 {/* <progress className="progress progress-cus-success w-56" value="85" max="100"></progress> */}
                                             </div>
                                         </div>
                                         <div className="singleSkill_left_01 my-4 flex">
                                             <div className="skill_icon mt-2 mr-1 text-base customLime"><SiNextdotjs /></div>
                                             <div className="skillData">
-                                                <h1 className="skill_head text-base font-medium textMain">Next JS</h1>
-                                                <h3 className="skill_acc textMouse text-xs ">Advance</h3>
+                                                <h1 className="skill_head text-base font-medium text-white">Next JS</h1>
+                                                <h3 className="skill_acc text-white text-xs ">Advance</h3>
                                                 {/* <progress className="progress progress-cus-success w-56" value="85" max="100"></progress> */}
                                             </div>
                                         </div>
@@ -110,8 +110,8 @@ export default function Skills() {
 
                                             </div>
                                             <div className="skillData">
-                                                <h1 className="skill_head text-base font-medium textMain">Tailwind</h1>
-                                                <h3 className="skill_acc textMouse text-xs ">Advance</h3>
+                                                <h1 className="skill_head text-base font-medium text-white">Tailwind</h1>
+                                                <h3 className="skill_acc text-white text-xs ">Advance</h3>
                                                 {/* <progress className="progress progress-cus-success w-56" value="89" max="100"></progress> */}
                                             </div>
                                         </div>
@@ -120,8 +120,8 @@ export default function Skills() {
 
                                             </div>
                                             <div className="skillData">
-                                                <h1 className="skill_head text-base font-medium textMain">Front-End Web Development</h1>
-                                                <h3 className="skill_acc textMouse  text-xs ">Advance</h3>
+                                                <h1 className="skill_head text-base font-medium text-white">Front-End Web Development</h1>
+                                                <h3 className="skill_acc text-white  text-xs ">Advance</h3>
                                                 {/* <progress className="progress progress-cus-success w-56" value="90" max="100"></progress> */}
                                             </div>
                                         </div>
@@ -137,16 +137,16 @@ export default function Skills() {
                                         <div className="singleSkill_left_01 my-4 flex">
                                             <div className="skill_icon mt-2 mr-1 text-base customLime"><MdPalette /></div>
                                             <div className="skillData">
-                                                <h1 className="skill_head text-base font-medium	 textMain">Graphics Design</h1>
-                                                <h3 className="skill_acc  text-xs	textMouse ">Advance</h3>
+                                                <h1 className="skill_head text-base font-medium	 text-white">Graphics Design</h1>
+                                                <h3 className="skill_acc  text-xs	text-white ">Advance</h3>
                                                 {/* <progress className="progress progress-cus-success w-56" value="88" max="100"></progress> */}
                                             </div>
                                         </div>
                                         <div className="singleSkill_left_01 my-4 flex">
                                             <div className="skill_icon mt-2 mr-1 text-base customLime"><GiPencilBrush /></div>
                                             <div className="skillData">
-                                                <h1 className="skill_head text-base font-medium	textMain">UI/UX Design</h1>
-                                                <h3 className="skill_acc textMouse text-xs ">Advance</h3>
+                                                <h1 className="skill_head text-base font-medium	text-white">UI/UX Design</h1>
+                                                <h3 className="skill_acc text-white text-xs ">Advance</h3>
                                                 {/* <progress className="progress progress-cus-success w-56" value="85" max="100"></progress> */}
                                             </div>
                                         </div>
@@ -156,8 +156,8 @@ export default function Skills() {
 
                                             </div>
                                             <div className="skillData">
-                                                <h1 className="skill_head text-base font-medium	textMain">Photo Editing</h1>
-                                                <h3 className="skill_acc textMouse text-xs ">Intermediate</h3>
+                                                <h1 className="skill_head text-base font-medium	text-white">Photo Editing</h1>
+                                                <h3 className="skill_acc text-white text-xs ">Intermediate</h3>
                                                 {/* <progress className="progress progress-cus-success w-56" value="68" max="100"></progress> */}
                                             </div>
                                         </div>
@@ -166,8 +166,8 @@ export default function Skills() {
 
                                             </div>
                                             <div className="skillData">
-                                                <h1 className="skill_head text-base font-medium	textMain">Video Editing</h1>
-                                                <h3 className="skill_acc textMouse  text-xs ">Intermediate</h3>
+                                                <h1 className="skill_head text-base font-medium	text-white">Video Editing</h1>
+                                                <h3 className="skill_acc text-white  text-xs ">Intermediate</h3>
                                                 {/* <progress className="progress progress-cus-success w-56" value="60" max="100"></progress> */}
                                             </div>
                                         </div>
@@ -176,16 +176,16 @@ export default function Skills() {
                                         <div className="singleSkill_left_01 my-4 flex">
                                             <div className="skill_icon mt-2 mr-1 text-base customLime"><MdAnimation /></div>
                                             <div className="skillData">
-                                                <h1 className="skill_head text-base font-medium	 textMain">Animation</h1>
-                                                <h3 className="skill_acc  text-xs	textMouse ">Beginner</h3>
+                                                <h1 className="skill_head text-base font-medium	 text-white">Animation</h1>
+                                                <h3 className="skill_acc  text-xs	text-white ">Beginner</h3>
                                                 {/* <progress className="progress progress-cus-success w-56" value="20" max="100"></progress> */}
                                             </div>
                                         </div>
                                         <div className="singleSkill_left_01 my-4 flex">
                                             <div className="skill_icon mt-2 mr-1 text-base customLime"><FaPencilRuler /></div>
                                             <div className="skillData">
-                                                <h1 className="skill_head text-base font-medium	textMain">Illustration</h1>
-                                                <h3 className="skill_acc textMouse text-xs ">Intermediate</h3>
+                                                <h1 className="skill_head text-base font-medium	text-white">Illustration</h1>
+                                                <h3 className="skill_acc text-white text-xs ">Intermediate</h3>
                                                 {/* <progress className="progress progress-cus-success w-56" value="62" max="100"></progress> */}
                                             </div>
                                         </div>
@@ -195,8 +195,8 @@ export default function Skills() {
 
                                             </div>
                                             <div className="skillData">
-                                                <h1 className="skill_head text-base font-medium	textMain">Branding Design</h1>
-                                                <h3 className="skill_acc textMouse text-xs ">Intermediate</h3>
+                                                <h1 className="skill_head text-base font-medium	text-white">Branding Design</h1>
+                                                <h3 className="skill_acc text-white text-xs ">Intermediate</h3>
                                                 {/* <progress className="progress progress-cus-success w-56" value="65" max="100"></progress> */}
                                             </div>
                                         </div>
@@ -205,8 +205,8 @@ export default function Skills() {
 
                                             </div>
                                             <div className="skillData">
-                                                <h1 className="skill_head text-base font-medium	textMain">Digital Art</h1>
-                                                <h3 className="skill_acc textMouse  text-xs ">Intermediate</h3>
+                                                <h1 className="skill_head text-base font-medium	text-white">Digital Art</h1>
+                                                <h3 className="skill_acc text-white  text-xs ">Intermediate</h3>
                                                 {/* <progress className="progress progress-cus-success w-56" value="60" max="100"></progress> */}
                                             </div>
                                         </div>
@@ -222,16 +222,16 @@ export default function Skills() {
                                         <div className="singleSkill_left_01 my-4 flex">
                                             <div className="skill_icon mt-2 mr-1 text-base customLime"><HiPresentationChartLine /></div>
                                             <div className="skillData">
-                                                <h1 className="skill_head text-base font-medium	 textMain">Presentaion</h1>
-                                                <h3 className="skill_acc  text-xs	textMouse ">Advance</h3>
+                                                <h1 className="skill_head text-base font-medium	 text-white">Presentaion</h1>
+                                                <h3 className="skill_acc  text-xs	text-white ">Advance</h3>
                                                 {/* <progress className="progress progress-cus-success w-56" value="95" max="100"></progress> */}
                                             </div>
                                         </div>
                                         <div className="singleSkill_left_01 my-4 flex">
                                             <div className="skill_icon mt-2 mr-1 text-base customLime"><MdOutlineSupportAgent /></div>
                                             <div className="skillData">
-                                                <h1 className="skill_head text-base font-medium	textMain">Virtual Assistant</h1>
-                                                <h3 className="skill_acc textMouse text-xs ">Advance</h3>
+                                                <h1 className="skill_head text-base font-medium	text-white">Virtual Assistant</h1>
+                                                <h3 className="skill_acc text-white text-xs ">Advance</h3>
                                                 {/* <progress className="progress progress-cus-success w-56" value="90" max="100"></progress> */}
                                             </div>
                                         </div>
@@ -240,8 +240,8 @@ export default function Skills() {
 
                                             </div>
                                             <div className="skillData">
-                                                <h1 className="skill_head text-base font-medium	textMain">Copy-Typing</h1>
-                                                <h3 className="skill_acc textMouse  text-xs ">Advance</h3>
+                                                <h1 className="skill_head text-base font-medium	text-white">Copy-Typing</h1>
+                                                <h3 className="skill_acc text-white  text-xs ">Advance</h3>
                                                 {/* <progress className="progress progress-cus-success w-56" value="95" max="100"></progress> */}
                                             </div>
                                         </div>
@@ -251,8 +251,8 @@ export default function Skills() {
 
                                             </div>
                                             <div className="skillData">
-                                                <h1 className="skill_head text-base font-medium	textMain">MS Office</h1>
-                                                <h3 className="skill_acc textMouse text-xs ">Advance</h3>
+                                                <h1 className="skill_head text-base font-medium	text-white">MS Office</h1>
+                                                <h3 className="skill_acc text-white text-xs ">Advance</h3>
                                                 {/* <progress className="progress progress-cus-success w-56" value="92" max="100"></progress> */}
                                             </div>
                                         </div>
@@ -261,8 +261,8 @@ export default function Skills() {
                                         <div className="singleSkill_left_01 my-4 flex">
                                             <div className="skill_icon mt-2 mr-1 text-base customLime"><SiGooglemarketingplatform /></div>
                                             <div className="skillData">
-                                                <h1 className="skill_head text-base font-medium	 textMain">Marketing</h1>
-                                                <h3 className="skill_acc  text-xs	textMouse ">Beginner</h3>
+                                                <h1 className="skill_head text-base font-medium	 text-white">Marketing</h1>
+                                                <h3 className="skill_acc  text-xs	text-white ">Beginner</h3>
                                                 {/* <progress className="progress progress-cus-success w-56" value="25" max="100"></progress> */}
                                             </div>
 
@@ -270,8 +270,8 @@ export default function Skills() {
                                         <div className="singleSkill_left_01 my-4 flex">
                                             <div className="skill_icon mt-2 mr-1 text-base customLime"><FaSearchDollar /></div>
                                             <div className="skillData">
-                                                <h1 className="skill_head text-base font-medium	textMain">SEO</h1>
-                                                <h3 className="skill_acc textMouse text-xs ">Beginner</h3>
+                                                <h1 className="skill_head text-base font-medium	text-white">SEO</h1>
+                                                <h3 className="skill_acc text-white text-xs ">Beginner</h3>
                                                 {/* <progress className="progress progress-cus-success w-56" value="25" max="100"></progress> */}
                                             </div>
                                         </div>
