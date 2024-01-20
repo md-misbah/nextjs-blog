@@ -20,7 +20,7 @@ export default function EdunLang() {
                     </div>
                     <div className="eduLDataWrapper grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-0 gap-y-8">
 
-                        <div className="EduWrap csBg p-8  customShadow rounded-2xl w-11/12 m-auto md:m-auto lg:m-0 xl:m-0 2xl:m-0 ">
+                        <div className="EduWrap csBg p-8  shadow rounded-2xl w-11/12 m-auto md:m-auto lg:m-0 xl:m-0 2xl:m-0 ">
 
                             <div className="eduTitle flex flex-wrap">
                                 <FaGraduationCap className="customLime text-3xl" />
@@ -67,7 +67,7 @@ export default function EdunLang() {
                             </div>
 
                         </div>
-                        <div className="EduWrap csBg p-8 customShadow rounded-2xl w-11/12 m-auto md:m-auto lg:m-0 xl:m-0 2xl:m-0 ">
+                        <div className="EduWrap csBg p-8 shadow rounded-2xl w-11/12 m-auto md:m-auto lg:m-0 xl:m-0 2xl:m-0 ">
 
                             <div className="eduTitle flex flex-wrap">
                                 <LuLanguages className="customLime text-3xl" />
