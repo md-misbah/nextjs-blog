@@ -7,7 +7,7 @@ import Projects from '@/components/Projects'
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="text-white">
       {/* <Navbar /> */}
       <About />
       <EducationNLanguages />
