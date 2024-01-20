@@ -53,7 +53,7 @@ export default function Projects() {
                     </div>
                     <div className="projectsWrap grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-6 my-6">
 
-                        <div className="singleProjectWrapper csBg customShadow p-6 rounded-2xl">
+                        <div className="singleProjectWrapper csBg shadow p-6 rounded-2xl">
                             <div className="singleProjectImg w-12/12 h-44 rounded-xl">
                                 <Image
                                     src={projectImg[0]}
@@ -75,7 +75,7 @@ export default function Projects() {
                                 </div>
                             </div>
                         </div>
-                        <div className="singleProjectWrapper csBg customShadow p-6 rounded-2xl">
+                        <div className="singleProjectWrapper csBg shadow p-6 rounded-2xl">
                             <div className="singleProjectImg w-12/12 h-44 rounded-xl">
                                 <Image
                                     src={projectImg[1]}
@@ -97,7 +97,7 @@ export default function Projects() {
                                 </div>
                             </div>
                         </div>
-                        <div className="singleProjectWrapper csBg customShadow p-6 rounded-2xl">
+                        <div className="singleProjectWrapper csBg shadow p-6 rounded-2xl">
                             <div className="singleProjectImg w-12/12 h-44 rounded-xl">
                                 <Image
                                     src={projectImg[2]}
@@ -122,7 +122,7 @@ export default function Projects() {
 
 
 
-                        <div className="singleProjectWrapper csBg customShadow p-6 rounded-2xl">
+                        <div className="singleProjectWrapper csBg shadow p-6 rounded-2xl">
                             <div className="singleProjectImg w-12/12 h-44 rounded-xl">
                                 <Image
                                     src={projectImg[3]}
@@ -144,7 +144,7 @@ export default function Projects() {
                                 </div>
                             </div>
                         </div>
-                        <div className="singleProjectWrapper csBg customShadow p-6 rounded-2xl">
+                        <div className="singleProjectWrapper csBg shadow p-6 rounded-2xl">
                             <div className="singleProjectImg w-12/12 h-44 rounded-xl">
                                 <Image
                                     src={projectImg[4]}
@@ -166,7 +166,7 @@ export default function Projects() {
                                 </div>
                             </div>
                         </div>
-                        <div className="singleProjectWrapper csBg customShadow p-6 rounded-2xl">
+                        <div className="singleProjectWrapper csBg shadow p-6 rounded-2xl">
                             <div className="singleProjectImg w-12/12 h-44 rounded-xl">
                                 <Image
                                     src={projectImg[5]}
@@ -191,7 +191,7 @@ export default function Projects() {
 
 
 
-                        <div className="singleProjectWrapper csBg customShadow p-6 rounded-2xl">
+                        <div className="singleProjectWrapper csBg shadow p-6 rounded-2xl">
                             <div className="singleProjectImg w-12/12 h-44 rounded-xl">
                                 <Image
                                     src={projectImg[6]}
@@ -213,7 +213,7 @@ export default function Projects() {
                                 </div>
                             </div>
                         </div>
-                        <div className="singleProjectWrapper csBg customShadow p-6 rounded-2xl">
+                        <div className="singleProjectWrapper csBg shadow p-6 rounded-2xl">
                             <div className="singleProjectImg w-12/12 h-44 rounded-xl">
                                 <Image
                                     src={projectImg[7]}
@@ -235,7 +235,7 @@ export default function Projects() {
                                 </div>
                             </div>
                         </div>
-                        <div className="singleProjectWrapper csBg customShadow p-6 rounded-2xl">
+                        <div className="singleProjectWrapper csBg shadow p-6 rounded-2xl">
                             <div className="singleProjectImg w-12/12 h-44 rounded-xl">
                                 <Image
                                     src={projectImg[8]}
