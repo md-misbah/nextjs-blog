@@ -30,21 +30,21 @@ export default function About() {
                         </div>
                         <div className="aboutmetaWrap">
                             <div className="aboutBox grid grid-cols-3 gap-x-4 mb-12">
-                                <div className="aboutIcoBox text-center py-4 px-5 customShadow bg-white rounded-xl">
+                                <div className="aboutIcoBox text-center py-4 px-5 customShadow csBg rounded-xl">
                                     <div className="abIco my-2">
                                         <FaAward className="customLime m-auto text-xl" />
                                     </div>
                                     <h1 className="mt-2 mb-0 text-sm font-semibold textMain">Experience</h1>
                                     <span className="mb-2 tinyFont textAlt text-xs">3++ Years Working</span>
                                 </div>
-                                <div className="aboutIcoBox text-center py-4 px-4 customShadow bg-white rounded-xl">
+                                <div className="aboutIcoBox text-center py-4 px-4 customShadow csBg rounded-xl">
                                     <div className="abIco my-2">
                                         <ImBriefcase className="customLime m-auto text-xl" />
                                     </div>
                                     <h1 className="mt-2 mb-0 text-sm font-semibold textMain">Completed</h1>
                                     <span className="mb-2 tinyFont textAlt text-xs">30++ Projects</span>
                                 </div>
-                                <div className="aboutIcoBox text-center py-4 px-5 customShadow bg-white rounded-xl">
+                                <div className="aboutIcoBox text-center py-4 px-5 customShadow csBg rounded-xl">
                                     <div className="abIco my-2">
                                         <BiSupport className="customLime m-auto text-xl" />
                                     </div>
